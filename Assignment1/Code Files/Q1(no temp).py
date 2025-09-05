@@ -1,18 +1,18 @@
- 1. a=5
- 2. #Initialise a
- 3. print(a)
- 4. #printing a for reference
- 5. b=10
- 6. #initialise b
- 7. print(b)
- 8. #print b for reference
- 9. a=a+b
-10. #using without temp by storing the sum
-11. b=a-b
-12. #retrieving value of a
-13. a=a-b
-14. #retrieving value of b
-15. print(a)
-16. #printing a
+a=5
+#Initialise a
+print(a)
+#printing a for reference
+b=10
+#initialise b
+print(b)
+ #print b for reference
+a=a+b
+#using without temp by storing the sum
+b=a-b
+#retrieving value of a
+a=a-b
+#retrieving value of b
+print(a)
+#printing a
 print(b)
 #printing b
